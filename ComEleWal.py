@@ -51,7 +51,6 @@ output_file.writelines(WalLD_lines[2:-1])
 output_file.writelines(WalRD_lines[2:-1])
 
 output_file.write("    "+str(x)+'    '+str(y)+'    '+str(z)+"\n")
-output_file.write("\n")
 
 EleU_file.close()
 EleD_file.close()
